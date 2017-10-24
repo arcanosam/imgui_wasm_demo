@@ -1,5 +1,5 @@
-# Studies on Ocornut ImGUI Demo adapted to Webasembly
-My studies and coding about ocornut imgui demo in Webassembly
+# Studies on Ocornut ImGUI Demo adapted to Webassembly
+My studies and coding about @github/ocornut imgui demo in Webassembly
 
 ## Previous on my delirious:
 
@@ -13,9 +13,11 @@ My studies and coding about ocornut imgui demo in Webassembly
   * But there are the source that generated the page
 
 
- * Now, I will put here all my modifications on that code..
-   * To start, the __first commit__ is the code of @ocornut in this link (above)
+* Now, I will put here all my modifications on that code..
+   * To start, the __first commit__ is the code of @github/ocornut in this link (above)
 
+
+* **Thanks** to @github/ocornut to provide this demonstration
 
 ## Requirements
 * Just install [Webassembly toolchain](http://webassembly.org/getting-started/developers-guide/)
@@ -25,11 +27,11 @@ My studies and coding about ocornut imgui demo in Webassembly
 ### History
 #### 2017-10-24
 
-* First commit
+* Second commit
   * The original source
 
 
-* Second commit start my *modifications*
+* Third commit starts my *modifications*, *fixes*...
   * Some aesthetics modifications on folder structure
   * An bash script to compile
     * I try __cmake__, but it not find Webassembly toolchain
