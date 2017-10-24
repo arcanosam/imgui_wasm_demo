@@ -18,7 +18,10 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
 
 ## Requirements
 * Just install [Webassembly toolchain](http://webassembly.org/getting-started/developers-guide/)
-  * Run the bash script
+  * Clone repo
+  * Access repo folder
+  * Run *./app/build.sh*
+    * Don't forge to *chmod +x ./app/build.sh*
 
 
 ### History
