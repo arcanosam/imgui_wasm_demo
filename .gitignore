@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+#myProject directories
+html/
+
+#myScripts
+*.sh
