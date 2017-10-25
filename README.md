@@ -21,12 +21,13 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
 
 ## Usage
   * Open console/prompt command
-  * *source *__[[path to emsdk folder]]__/emsdk_env.sh*
+  * *source __[[path to emsdk folder]]__/emsdk_env.sh*
   * Clone this repo
     * git clone https://github.com/arcanosam/imgui_wasm_demo
   * Access repo folder
   * Run *./app/build.sh*
-    * Don't forget to *chmod +x ./app/build.sh*
+    * Don't forget permissions on build script
+      * *chmod +x ./app/build.sh*
     * At end, will be generated all files on *./app/html* folder
     * Open up html file on your browser (Chrome or Firefox)
       * Both browsers must be updated for having *Webassembly* enabled by default
@@ -61,3 +62,4 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
 * Update code to ImGUI 1.51
   * I just added/replaced the code where it's needed
     *  modifications on imgui_impl_sdl.cpp file
+      *  retrieve from 1.47 version of the same imgui_impl_sdl.cpp
