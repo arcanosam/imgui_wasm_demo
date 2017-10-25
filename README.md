@@ -21,7 +21,7 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
 
 ## Usage
   * Open console/prompt command
-  * *source __[[path to emsdk folder]]__/emsdk_env.sh*
+    * Run: *source __[[path to emsdk folder]]__/emsdk_env.sh*
   * Clone this repo
     * git clone https://github.com/arcanosam/imgui_wasm_demo
   * Access repo folder
