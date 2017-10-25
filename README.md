@@ -21,12 +21,12 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
 
 ## Usage
   * Open console/prompt command
-  * *source <<path to emsdk>>/emsdk_env.sh*
-  * Clone repo
+  * *source *__[[path to emsdk folder]]__/emsdk_env.sh*
+  * Clone this repo
     * git clone https://github.com/arcanosam/imgui_wasm_demo
   * Access repo folder
   * Run *./app/build.sh*
-    * Don't forge to *chmod +x ./app/build.sh*
+    * Don't forget to *chmod +x ./app/build.sh*
     * At end, will be generated all files on *./app/html* folder
     * Open up html file on your browser (Chrome or Firefox)
       * Both browsers must be updated for having *Webassembly* enabled by default
