@@ -37,6 +37,8 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
 
 #### 2017-10-25
 
+* Release 0.0.1 launched
+
 * Update Readme.md instructions
   * Added *Usage* section
 
