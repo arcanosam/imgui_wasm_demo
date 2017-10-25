@@ -12,19 +12,40 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
   * But there are the source that generated the page
 
 * Now, I will put here all my modifications on that code..
-   * To start, the __first commit__ is the code of @github/ocornut in this link (above)
+   * To start, the __second commit__ is the code of @ocornut (source link above)
 
-* **Thanks** to @github/ocornut to provide this demonstration
+* **Thanks** to @ocornut to provide this demonstration
 
 ## Requirements
 * Just install [Webassembly toolchain](http://webassembly.org/getting-started/developers-guide/)
+
+## Usage
+  * Open console/prompt command
+  * *source <<path to emsdk>>/emsdk_env.sh*
   * Clone repo
+    * git clone https://github.com/arcanosam/imgui_wasm_demo
   * Access repo folder
   * Run *./app/build.sh*
     * Don't forge to *chmod +x ./app/build.sh*
+    * At end, will be generated all files on *./app/html* folder
+    * Open up html file on your browser (Chrome or Firefox)
+      * Both browsers must be updated for having *Webassembly* enabled by default
 
 
 ### History
+
+#### 2017-10-25
+
+* Update Readme.md instructions
+  * Added *Usage* section
+
+* Changes on build bash script
+  * I added the parameters below (see them in *emcc --help*):
+    * *--separate-asm* ($EMSASMJS)
+      * Separate asm.js file from your codes
+    * *-g4* ($EMSDEBUG)
+      * Include debug symbols and unminify both Js codes generated
+
 #### 2017-10-24
 
 * Second commit
