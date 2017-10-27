@@ -1,0 +1,42 @@
+#!/bin/bash
+
+LOCALFOLDER=`pwd`
+
+if [ -d $LOCALFOLDER/html ]; then
+    rm -fR $LOCALFOLDER/html/
+fi
+
+mkdir $LOCALFOLDER/html
+
+CC=emcc
+
+# CFLAGS="-I$LOCALFOLDER/imgui/include/"
+CFLAGS=""
+
+# IMGUI_FILES="$LOCALFOLDER/imgui/src/imgui.cpp $LOCALFOLDER/imgui/src/imgui_draw.cpp $LOCALFOLDER/imgui/src/imgui_impl_sdl.cpp"
+IMGUI_FILES=""
+
+# DEMOFILE="$LOCALFOLDER/app/src/imgui_demo.cpp"
+DEMOFILE=""
+
+ENTRYPOINT="$LOCALFOLDER/app/src/main.cpp"
+
+#EMSASMJS=""
+EMSASMJS="--separate-asm"
+
+#EMSDEBUG=""
+EMSDEBUG="-g4"
+
+EMSFLAGS="-s USE_SDL=2 -s GL_FFP_ONLY=1 -o"
+
+# EMSOPTMZ="-O3"
+EMSOPTMZ=""
+
+OUTPUT=$LOCALFOLDER/html/index.html
+
+TPLPAGE="--shell-file $LOCALFOLDER/app/src/tpl.html"
+# TPLPAGE=""
+
+echo "$CC $CFLAGS $IMGUI_FILES $DEMOFILE $ENTRYPOINT $EMSASMJS $EMSDEBUG $EMSFLAGS $OUTPUT $EMSOPTMZ $TPLPAGE"
+
+`$CC $CFLAGS $IMGUI_FILES $DEMOFILE $ENTRYPOINT $EMSASMJS $EMSDEBUG $EMSFLAGS $OUTPUT $EMSOPTMZ $TPLPAGE`
