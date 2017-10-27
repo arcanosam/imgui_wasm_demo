@@ -44,7 +44,7 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
   * __main.cpp__
     * I'm trying to list only the __essential__ code to make a simple background with color
     * The crash on execution it's seems because the 'link' with the shader program is lost somehow
-    * See [Console log text](https://github.com/arcanosam/imgui_wasm_demo/error_20171027.md)
+    * See [Console log text](https://github.com/arcanosam/imgui_wasm_demo/blob/master/error_20171027.md)
   * __tpl.html__
     * My version of template html used to generated the final product.
     * Same idea: only the __essential__ to load the application.
