@@ -35,6 +35,14 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
 
 ### History
 
+#### 2017-10-20
+    * Just rename console error on Firefox
+    * Adding Chrome console
+      * See it here: [Chrome console log text](https://github.com/arcanosam/imgui_wasm_demo/blob/master/chrome_console_20171120.md)
+      * Better crash handle. I didn't have to force a restart on my CentOS 7
+      * Problem persist, lost the link with shader pogram which lead us at CONTEXT_LOST_WEBGL.
+        * I admit not having much time to pursue a solution
+
 #### 2017-10-27
 
 * First draft
@@ -44,7 +52,7 @@ My studies and coding about @github/ocornut imgui demo in Webassembly
   * __main.cpp__
     * I'm trying to list only the __essential__ code to make a simple background with color
     * The crash on execution it's seems because the 'link' with the shader program is lost somehow
-    * See [Console log text](https://github.com/arcanosam/imgui_wasm_demo/blob/master/error_20171027.md)
+    * See [Firefox console log text](https://github.com/arcanosam/imgui_wasm_demo/blob/master/firefox_console_20171027.md)
   * __tpl.html__
     * My version of template html used to generated the final product.
     * Same idea: only the __essential__ to load the application.
